@@ -1,4 +1,4 @@
-/*for hero image*/
+/*for hero image when user scrolls the page*/
 window.addEventListener('scroll', function () {
     var body = document.querySelector('body');
     var backgroundLogo = document.querySelector('.background-image-logo');
@@ -11,6 +11,9 @@ window.addEventListener('scroll', function () {
       backgroundLogo.classList.remove('fade-out-scroll');
     }
   });
+
+  /*BUG: when file is opened outside of vscode, the hero image does ntot appera*/
+
   /*promo*/
   const promoButton = document.getElementById('promoButton');
   const promoLightbox = document.getElementById('promoLightbox');
