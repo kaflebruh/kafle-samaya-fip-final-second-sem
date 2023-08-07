@@ -1,8 +1,11 @@
+<img width="948" alt="image" src="https://github.com/kaflebruh/kafle-samaya-fip-final-second-sem/assets/124806580/985e888e-d050-4554-ad3e-2d8b3d28dcc3">
+
 ## FIP
-For the FIP i have choosen billy beer as my main topic and rebranded it. I've ma a new website with hompage, contact page and sale page.
+For the FIP I have chosen billy beer as my main topic and rebranded it. I've ma a new website with homepage, contact page
+ and sale page.
 
 ## Installation
-Download the zip file in your desktop and unzip it
+Download the zip file on your desktop and unzip it
 
 ## Usage
 Open index.html to view the website
