@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--for footer-->
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="background-image-logo"></div>
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <div class="sidebar">
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="#">Who's Billy?</a>
+        </li>
+        <li>
+          <a href="./sale.html">Buy Billy</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact Billy</a>
+        </li>
+      </ul>
+    </div>
+    <section class="grid-con">
+      <h1 class="col-span-4 m-col-span-12 l-col-span-12" id="tagline"> BUY BILLY </h1>
+    </section>
+    <br>
+    <section class="grid-con">
+      <h2 class="hidden"> Sale Items</h2>
+      <div class="col-span-2 m-col-span-3 l-col-span-3 ">
+        <img src="./img/2.jpg" alt="#" class="saleitemimage">
+        <a href="#" class="salebutton"> BUY NOW</a>
+      </div>
+      <div class="col-span-2 m-col-span-3 l-col-span-3 ">
+        <img src="./img/5.jpg" alt="#" class="saleitemimage">
+        <a href="#" class="salebutton"> BUY NOW</a>
+      </div>
+      <div class="col-span-2 m-col-span-3 l-col-span-3 ">
+        <img src="./img/can.jpg" alt="#" class="saleitemimage">
+        <a href="#" class="salebutton"> BUY NOW</a>
+      </div>
+      <div class="col-span-2 m-col-span-3 l-col-span-3 ">
+        <img src="./img/bottlegreen.jpg" alt="#" class="saleitemimage">
+        <a href="#" class="salebutton"> BUY NOW</a>
+      </div>
+    </section>
+    <br>
+    <!--pop up promotion-->
+    <!--faced issues, making it responsive-->
+    <button id="promoButton">Click for promo details</button>
+    <div id="promoLightbox" class="lightbox">
+      <div class="lightbox-content">
+        <h2>Promo Details</h2>
+        <p id="promoContent">New promotion</p>
+        <button id="closeButton">Close</button>
+      </div>
+    </div>
+    <section class="grid-con">
+      <h1 class="col-span-4 m-col-span-12 l-col-span-12" id="carter"> "NEW LOGO NEW TASTE" </h1>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
