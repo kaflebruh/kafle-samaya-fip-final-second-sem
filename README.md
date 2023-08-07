@@ -1,5 +1,5 @@
-## fip
-FIP
+## FIP
+For the FIP i have choosen billy beer as my main topic and rebranded it. I've ma a new website with hompage, contact page and sale page.
 
 ## Installation
 Download the zip file in your desktop and unzip it
